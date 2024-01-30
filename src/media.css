@@ -1,0 +1,27 @@
+@media (max-width: 425px) {
+    .toDoItem{
+        flex-direction: column;
+    }
+    .toDoItem button{
+        margin-top: 25px;
+        font-size: 20px;
+
+    }
+    .sliderWrapper{
+        width: 90%;
+    }
+    .collection{
+        width: 90%;
+    }
+    .modal-content{
+        width: 400px;
+    }
+}
+@media (max-width: 375px) {
+    .modal-content{
+        width: 300px;
+    }
+    .formInput{
+        width: 100px;
+    }
+}
